@@ -12,7 +12,7 @@ var config = {
         rules: [
             {test: /\.(js)$/, exclude: /(node_modules)/, use: 'babel-loader'},
             {test: /\.(css)$/, use: ['style-loader', 'css-loader'] },
-            {test: /\.wav$/, use: 'file-loader'}
+            {test: /\.wav$/, use: 'file-loader?name=[name].[ext]&outputPath=sound'}
         ]
     },
     mode: process.env.NODE_ENV === 'production' ? 'production' : 'development',  

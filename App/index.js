@@ -1,9 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './components/App';
+import AltApp from './components/AltApp';
 import './index.css';
 
 ReactDOM.render(
-    <App />,
+    <AltApp />,
     document.getElementById('app')
 )
