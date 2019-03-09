@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import Owns from './/Owns';
 import Buffer from './/Buffer';
 import Sound from './/Sounds';
+import click1 from '../click1.wav';
+import click2 from '../click2.wav';
 
 var context = null;
 var timerID;
